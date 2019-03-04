@@ -1,0 +1,20 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.68">
+  <PropertyGroup>
+    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+    <RootNamespace>Qt</RootNamespace>
+    <Version>0.0.1</Version>
+    <Authors>qtbui159</Authors>
+    <Copyright>qtbui159</Copyright>
+    <PackageProjectUrl>https://github.com/qtbui159/QtExtension</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/qtbui159/QtExtension/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>C# dotnet WPF Extension Qt</PackageTags>
+    <PackageReleaseNotes>V0.01 First version</PackageReleaseNotes>
+    <Description>自用的一些常用扩展类和扩展方法</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net40|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net40|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+</Project>
