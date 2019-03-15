@@ -47,7 +47,7 @@ namespace Qt
         /// </summary>
         /// <param name="dateTime"></param>
         /// <returns></returns>
-        public static DateTimeOffset[] GetYearSectin(this DateTimeOffset dateTime)
+        public static DateTimeOffset[] GetYearSection(this DateTimeOffset dateTime)
         {
             DateTimeOffset start = new DateTime(dateTime.Year, 1, 1, 0, 0, 0, 0);
             DateTimeOffset end = start.AddYears(1).AddMilliseconds(-1);

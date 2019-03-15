@@ -47,7 +47,7 @@ namespace Qt
         /// </summary>
         /// <param name="dateTime"></param>
         /// <returns></returns>
-        public static DateTime[] GetYearSectin(this DateTime dateTime)
+        public static DateTime[] GetYearSection(this DateTime dateTime)
         {
             DateTime start = new DateTime(dateTime.Year, 1, 1, 0, 0, 0, 0);
             DateTime end = start.AddYears(1).AddMilliseconds(-1);

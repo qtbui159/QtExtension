@@ -34,7 +34,7 @@ namespace QtExtension.WPFTest
             {
                 StringList.Add(i.ToString());
             }
-
+            
             StringList.NotifyCollectionChanged();
         }
     }
