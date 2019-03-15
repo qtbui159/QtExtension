@@ -5,13 +5,13 @@
 1.判断是否今天 IsToday<br/>
 2.取当日时间区间 GetDaySection<br/>
 3.取当月时间区间 GetMonthSection<br/>
-4.取当年时间区间 GetYearSectin<br/>
+4.取当年时间区间 GetYearSection<br/>
 <br/>
 **0x02.DateTimeOffset**<br/>
 1.判断是否今天 IsToday<br/>
 2.取当日时间区间 GetDaySection<br/>
 3.取当月时间区间 GetMonthSection<br/>
-4.取当年时间区间 GetYearSectin<br/>
+4.取当年时间区间 GetYearSection<br/>
 <br/>
 **0x03.String**<br/>
 1.串联（类似Join) Joins<br/>
