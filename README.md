@@ -31,5 +31,11 @@
 **0x05.NotifyCollection** <br/>
 1.通知Count属性更改 NotifyCollectionChanged<br/>
 <br/>
-**0x06.decimal double**<br/>
+**0x06.Decimal Double**<br/>
 1.增加中国式四舍五入 Round<br/>
+<br/>
+**0x07.ICollectoin**<br/>
+1.批量添加 AddRange<br/>
+2.不存在添加 AddIfNotContains<br/>
+3.移除满足条件的元素 RemoveWhere<br/>
+4.根据字段去重 Distinct<br/>
